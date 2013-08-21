@@ -4,7 +4,7 @@
   "description": "Just testing out CI servers",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec test"
+    "test": "./test.sh"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,8 @@
   "readmeFilename": "README.md",
   "gitHead": "a693172231dc7a22fa6cedfd738b40bd90702186",
   "devDependencies": {
-    "mocha": "~1.12.0"
+    "mocha": "~1.12.0",
+    "mocha-phantomjs": "~3.1.1",
+    "chai": "~1.7.2"
   }
 }
