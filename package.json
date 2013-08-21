@@ -11,7 +11,7 @@
     "url": "git://github.com/jerryorr/ci-test.git"
   },
   "author": "Jerry Orr <jerry.orr@spiderstrategies.com>",
-  "license": "BSD",
+  "license": "MIT",
   "readmeFilename": "README.md",
   "gitHead": "a693172231dc7a22fa6cedfd738b40bd90702186",
   "devDependencies": {
