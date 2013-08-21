@@ -9,4 +9,8 @@ describe('hello', function () {
   it('uses stranger if no name', function () {
     assert.equal(hello(), 'No, I will NOT say Hello stranger')
   })
+
+  it('capitalizes first letter', function () {
+    assert.equal(hello('jerry'), 'No, I will NOT say Hello Jerry')
+  })
 })
